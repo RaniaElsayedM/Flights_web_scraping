@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3cc6a78ac2dee814965240d2872996f2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3cc6a78ac2dee814965240d2872996f2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3cc6a78ac2dee814965240d2872996f2 = L.map(
+                "map_3cc6a78ac2dee814965240d2872996f2",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7bf29f2f20d336dd4eaebc535269c3bb = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7bf29f2f20d336dd4eaebc535269c3bb.addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var marker_3498dffd78e5ee03d27e4abe0a3a3217 = L.marker(
+                [31.5, 34.5],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var div_icon_0e41e5fe5ffa80172d65c4660c84f9d9 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 16pt; color: black;\"\u003ePalestine\u003c/div\u003e",
+  "className": "empty",
+});
+            marker_3498dffd78e5ee03d27e4abe0a3a3217.setIcon(div_icon_0e41e5fe5ffa80172d65c4660c84f9d9);
+        
+    
+        var popup_8afe9a08f5e571287805b479784c9e30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4758ed127bb256ad1d0cdafb3f94a97 = $(`<div id="html_d4758ed127bb256ad1d0cdafb3f94a97" style="width: 100.0%; height: 100.0%;">Palestine</div>`)[0];
+                popup_8afe9a08f5e571287805b479784c9e30.setContent(html_d4758ed127bb256ad1d0cdafb3f94a97);
+            
+        
+
+        marker_3498dffd78e5ee03d27e4abe0a3a3217.bindPopup(popup_8afe9a08f5e571287805b479784c9e30)
+        ;
+
+        
+    
+    
+                marker_3498dffd78e5ee03d27e4abe0a3a3217.setIcon(div_icon_0e41e5fe5ffa80172d65c4660c84f9d9);
+            
+    
+            var circle_marker_b1826555ef792ffdfb343f2493d1b410 = L.circleMarker(
+                [-37.8142454, 144.9631732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_c315dd61fa2422dbd8009a1b8649e599 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_338c59eac9bd14c9debe7151c56f9e51 = $(`<div id="html_338c59eac9bd14c9debe7151c56f9e51" style="width: 100.0%; height: 100.0%;">Melbourne</div>`)[0];
+                popup_c315dd61fa2422dbd8009a1b8649e599.setContent(html_338c59eac9bd14c9debe7151c56f9e51);
+            
+        
+
+        circle_marker_b1826555ef792ffdfb343f2493d1b410.bindPopup(popup_c315dd61fa2422dbd8009a1b8649e599)
+        ;
+
+        
+    
+    
+            var circle_marker_3355b28bf4078de5c6b9d85c23a9147d = L.circleMarker(
+                [-33.8698439, 151.2082848],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_11fd28ab3db657e7d5f659031abb761e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac5ae2639ebabca10e388a2a9762eadf = $(`<div id="html_ac5ae2639ebabca10e388a2a9762eadf" style="width: 100.0%; height: 100.0%;">Sydney</div>`)[0];
+                popup_11fd28ab3db657e7d5f659031abb761e.setContent(html_ac5ae2639ebabca10e388a2a9762eadf);
+            
+        
+
+        circle_marker_3355b28bf4078de5c6b9d85c23a9147d.bindPopup(popup_11fd28ab3db657e7d5f659031abb761e)
+        ;
+
+        
+    
+    
+            var poly_line_927528be6fc1a0abdc1a6a1bed7e9e28 = L.polyline(
+                [[-37.8142454, 144.9631732], [-33.8698439, 151.2082848]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_7d45f3f57abc055bd3db1fc4e97b8df0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_428c8de0e36fbc0dac5810378783b5b5 = $(`<div id="html_428c8de0e36fbc0dac5810378783b5b5" style="width: 100.0%; height: 100.0%;">Route: Melbourne to Sydney<br>Passengers: 9,181,932</div>`)[0];
+                popup_7d45f3f57abc055bd3db1fc4e97b8df0.setContent(html_428c8de0e36fbc0dac5810378783b5b5);
+            
+        
+
+        poly_line_927528be6fc1a0abdc1a6a1bed7e9e28.bindPopup(popup_7d45f3f57abc055bd3db1fc4e97b8df0)
+        ;
+
+        
+    
+    
+            var marker_622efb6f984033b269d8defe02c4b10b = L.marker(
+                [-35.84204465, 148.08572900000001],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_ac9cefdfde18e2e251ec3ecafa2277eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e649a15f7423fdcb457dd4babb5aebc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c037d066b99a2befce67f10c26e7e9a = $(`<div id="html_9c037d066b99a2befce67f10c26e7e9a" style="width: 100.0%; height: 100.0%;">Midpoint of Melbourne to Sydney</div>`)[0];
+                popup_e649a15f7423fdcb457dd4babb5aebc3.setContent(html_9c037d066b99a2befce67f10c26e7e9a);
+            
+        
+
+        marker_622efb6f984033b269d8defe02c4b10b.bindPopup(popup_e649a15f7423fdcb457dd4babb5aebc3)
+        ;
+
+        
+    
+    
+                marker_622efb6f984033b269d8defe02c4b10b.setIcon(icon_ac9cefdfde18e2e251ec3ecafa2277eb);
+            
+    
+            var circle_marker_ebc7f38adf275db7ee68cb9945289413 = L.circleMarker(
+                [51.4893335, -0.1440551],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_ce3ac91d3a184f8cb2452f7f5f9e6723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffa163e4ba4259c8eccabcae6219a07d = $(`<div id="html_ffa163e4ba4259c8eccabcae6219a07d" style="width: 100.0%; height: 100.0%;">London</div>`)[0];
+                popup_ce3ac91d3a184f8cb2452f7f5f9e6723.setContent(html_ffa163e4ba4259c8eccabcae6219a07d);
+            
+        
+
+        circle_marker_ebc7f38adf275db7ee68cb9945289413.bindPopup(popup_ce3ac91d3a184f8cb2452f7f5f9e6723)
+        ;
+
+        
+    
+    
+            var circle_marker_845e69bf5c003d03f77291a8c9729601 = L.circleMarker(
+                [53.3493795, -6.2605593],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_014ea2bd63c19fd453996beff7506be0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5710fc4ba3981337ea30f9dd4a683119 = $(`<div id="html_5710fc4ba3981337ea30f9dd4a683119" style="width: 100.0%; height: 100.0%;">Dublin</div>`)[0];
+                popup_014ea2bd63c19fd453996beff7506be0.setContent(html_5710fc4ba3981337ea30f9dd4a683119);
+            
+        
+
+        circle_marker_845e69bf5c003d03f77291a8c9729601.bindPopup(popup_014ea2bd63c19fd453996beff7506be0)
+        ;
+
+        
+    
+    
+            var poly_line_39615a754f8446b1e4245f4f3e84c369 = L.polyline(
+                [[51.4893335, -0.1440551], [53.3493795, -6.2605593]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_455db6f03dfb4a8346fa5161739f843c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3d1941f772d7903889a8da24e83bd83 = $(`<div id="html_d3d1941f772d7903889a8da24e83bd83" style="width: 100.0%; height: 100.0%;">Route: London to Dublin<br>Passengers: 5,106,040</div>`)[0];
+                popup_455db6f03dfb4a8346fa5161739f843c.setContent(html_d3d1941f772d7903889a8da24e83bd83);
+            
+        
+
+        poly_line_39615a754f8446b1e4245f4f3e84c369.bindPopup(popup_455db6f03dfb4a8346fa5161739f843c)
+        ;
+
+        
+    
+    
+            var marker_884179880404d158d4e03f855a6f19f4 = L.marker(
+                [52.4193565, -3.2023072],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_3abd0dd31b14408018081ccde26f624c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae81961dc83bc1341e61ad4cff3daa2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a21fb15ba7ee87411266a8781b01fb9f = $(`<div id="html_a21fb15ba7ee87411266a8781b01fb9f" style="width: 100.0%; height: 100.0%;">Midpoint of London to Dublin</div>`)[0];
+                popup_ae81961dc83bc1341e61ad4cff3daa2f.setContent(html_a21fb15ba7ee87411266a8781b01fb9f);
+            
+        
+
+        marker_884179880404d158d4e03f855a6f19f4.bindPopup(popup_ae81961dc83bc1341e61ad4cff3daa2f)
+        ;
+
+        
+    
+    
+                marker_884179880404d158d4e03f855a6f19f4.setIcon(icon_3abd0dd31b14408018081ccde26f624c);
+            
+    
+            var circle_marker_566b4a3f6389f4f971e9987ada7a7e85 = L.circleMarker(
+                [55.625578, 37.6063916],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_d58a434c05134b0c836283b58f1a884e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5baef939b9d9c4fd37483346a9098649 = $(`<div id="html_5baef939b9d9c4fd37483346a9098649" style="width: 100.0%; height: 100.0%;">Moscow</div>`)[0];
+                popup_d58a434c05134b0c836283b58f1a884e.setContent(html_5baef939b9d9c4fd37483346a9098649);
+            
+        
+
+        circle_marker_566b4a3f6389f4f971e9987ada7a7e85.bindPopup(popup_d58a434c05134b0c836283b58f1a884e)
+        ;
+
+        
+    
+    
+            var circle_marker_70f4c1a6aa5d5aef5d173cac691f909e = L.circleMarker(
+                [59.9606739, 30.1586551],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_60ef17d8b5ac71c3b891aa5c8238aeea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a641af8e14bf646de8f80a6410c5777 = $(`<div id="html_6a641af8e14bf646de8f80a6410c5777" style="width: 100.0%; height: 100.0%;">Saint Petersburg</div>`)[0];
+                popup_60ef17d8b5ac71c3b891aa5c8238aeea.setContent(html_6a641af8e14bf646de8f80a6410c5777);
+            
+        
+
+        circle_marker_70f4c1a6aa5d5aef5d173cac691f909e.bindPopup(popup_60ef17d8b5ac71c3b891aa5c8238aeea)
+        ;
+
+        
+    
+    
+            var poly_line_728bf91c248bb0dfba82e5d8496c676c = L.polyline(
+                [[55.625578, 37.6063916], [59.9606739, 30.1586551]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_d402b53df1bc5bf96b5eb333b3bbbd0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19e9823f6f24e4f55246cedd7bb5e4e2 = $(`<div id="html_19e9823f6f24e4f55246cedd7bb5e4e2" style="width: 100.0%; height: 100.0%;">Route: Moscow to Saint Petersburg<br>Passengers: 5,051,518</div>`)[0];
+                popup_d402b53df1bc5bf96b5eb333b3bbbd0c.setContent(html_19e9823f6f24e4f55246cedd7bb5e4e2);
+            
+        
+
+        poly_line_728bf91c248bb0dfba82e5d8496c676c.bindPopup(popup_d402b53df1bc5bf96b5eb333b3bbbd0c)
+        ;
+
+        
+    
+    
+            var marker_3453227d09c005a8cedff93b2d91a4ca = L.marker(
+                [57.793125950000004, 33.88252335],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_0be6322af909ac70b16538e6711a3ecc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f06d1a6d58b7a526cfa1df8ea3b036fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b165a6dfa79d1645fc259edafb5e31c = $(`<div id="html_5b165a6dfa79d1645fc259edafb5e31c" style="width: 100.0%; height: 100.0%;">Midpoint of Moscow to Saint Petersburg</div>`)[0];
+                popup_f06d1a6d58b7a526cfa1df8ea3b036fc.setContent(html_5b165a6dfa79d1645fc259edafb5e31c);
+            
+        
+
+        marker_3453227d09c005a8cedff93b2d91a4ca.bindPopup(popup_f06d1a6d58b7a526cfa1df8ea3b036fc)
+        ;
+
+        
+    
+    
+                marker_3453227d09c005a8cedff93b2d91a4ca.setIcon(icon_0be6322af909ac70b16538e6711a3ecc);
+            
+    
+            var circle_marker_e3b95f6d0da20c32dfb975ad8cd279e6 = L.circleMarker(
+                [51.4893335, -0.1440551],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_26a7a9d56c489f4cbfe05e1e851285e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85c4d48f6fef217f43bf83258db827ff = $(`<div id="html_85c4d48f6fef217f43bf83258db827ff" style="width: 100.0%; height: 100.0%;">London</div>`)[0];
+                popup_26a7a9d56c489f4cbfe05e1e851285e8.setContent(html_85c4d48f6fef217f43bf83258db827ff);
+            
+        
+
+        circle_marker_e3b95f6d0da20c32dfb975ad8cd279e6.bindPopup(popup_26a7a9d56c489f4cbfe05e1e851285e8)
+        ;
+
+        
+    
+    
+            var circle_marker_b5b72c5c53c2e35c5272d526c6a96fc5 = L.circleMarker(
+                [52.3730796, 4.8924534],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_554737bd2a43f01dd24d10fd94a77297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0fd04c166a648187f95186eb0fdb0ca = $(`<div id="html_c0fd04c166a648187f95186eb0fdb0ca" style="width: 100.0%; height: 100.0%;">Amsterdam</div>`)[0];
+                popup_554737bd2a43f01dd24d10fd94a77297.setContent(html_c0fd04c166a648187f95186eb0fdb0ca);
+            
+        
+
+        circle_marker_b5b72c5c53c2e35c5272d526c6a96fc5.bindPopup(popup_554737bd2a43f01dd24d10fd94a77297)
+        ;
+
+        
+    
+    
+            var poly_line_e7c1e4d9277632c2cc00f8a9ccf0ba13 = L.polyline(
+                [[51.4893335, -0.1440551], [52.3730796, 4.8924534]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_04db82dfda189672bd60a7dd949800d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40c0dca1a35bd10f8842c32cf4293139 = $(`<div id="html_40c0dca1a35bd10f8842c32cf4293139" style="width: 100.0%; height: 100.0%;">Route: London to Amsterdam<br>Passengers: 4,920,551</div>`)[0];
+                popup_04db82dfda189672bd60a7dd949800d4.setContent(html_40c0dca1a35bd10f8842c32cf4293139);
+            
+        
+
+        poly_line_e7c1e4d9277632c2cc00f8a9ccf0ba13.bindPopup(popup_04db82dfda189672bd60a7dd949800d4)
+        ;
+
+        
+    
+    
+            var marker_b5c1e6e373f37378f1c40f405ebba8a3 = L.marker(
+                [51.93120655, 2.37419915],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_73bdc137f3c50ce520f95107da371aeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39d6c3a5c32e2a9bc62be104409e53bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65f8d47694206bbcdf36be79b21fdbec = $(`<div id="html_65f8d47694206bbcdf36be79b21fdbec" style="width: 100.0%; height: 100.0%;">Midpoint of London to Amsterdam</div>`)[0];
+                popup_39d6c3a5c32e2a9bc62be104409e53bc.setContent(html_65f8d47694206bbcdf36be79b21fdbec);
+            
+        
+
+        marker_b5c1e6e373f37378f1c40f405ebba8a3.bindPopup(popup_39d6c3a5c32e2a9bc62be104409e53bc)
+        ;
+
+        
+    
+    
+                marker_b5c1e6e373f37378f1c40f405ebba8a3.setIcon(icon_73bdc137f3c50ce520f95107da371aeb);
+            
+    
+            var circle_marker_271d1ce3a79b1a52388adf51f4d07d96 = L.circleMarker(
+                [51.4893335, -0.1440551],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_6964be0c60bfc7c3ada2fb487da4ab1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_609ac25b1ddff51cf8ccf4c26f9f60eb = $(`<div id="html_609ac25b1ddff51cf8ccf4c26f9f60eb" style="width: 100.0%; height: 100.0%;">London</div>`)[0];
+                popup_6964be0c60bfc7c3ada2fb487da4ab1a.setContent(html_609ac25b1ddff51cf8ccf4c26f9f60eb);
+            
+        
+
+        circle_marker_271d1ce3a79b1a52388adf51f4d07d96.bindPopup(popup_6964be0c60bfc7c3ada2fb487da4ab1a)
+        ;
+
+        
+    
+    
+            var circle_marker_87cb4d9599c7cc0b174c777500c1a0ad = L.circleMarker(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_e7177c00e79b0635197757da536d45c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4246aaeb067dec7202c04ab7a7f5e14 = $(`<div id="html_d4246aaeb067dec7202c04ab7a7f5e14" style="width: 100.0%; height: 100.0%;">New York</div>`)[0];
+                popup_e7177c00e79b0635197757da536d45c8.setContent(html_d4246aaeb067dec7202c04ab7a7f5e14);
+            
+        
+
+        circle_marker_87cb4d9599c7cc0b174c777500c1a0ad.bindPopup(popup_e7177c00e79b0635197757da536d45c8)
+        ;
+
+        
+    
+    
+            var poly_line_c5b76754e4e140e0e26ddd265c77150f = L.polyline(
+                [[51.4893335, -0.1440551], [40.7127281, -74.0060152]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_3c1cea452326d64b562e8ec27e9deb2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10c0f143575ff0f60f9381999ef3318a = $(`<div id="html_10c0f143575ff0f60f9381999ef3318a" style="width: 100.0%; height: 100.0%;">Route: London to New York<br>Passengers: 4,869,777</div>`)[0];
+                popup_3c1cea452326d64b562e8ec27e9deb2f.setContent(html_10c0f143575ff0f60f9381999ef3318a);
+            
+        
+
+        poly_line_c5b76754e4e140e0e26ddd265c77150f.bindPopup(popup_3c1cea452326d64b562e8ec27e9deb2f)
+        ;
+
+        
+    
+    
+            var marker_b5f21bb0817755cb636f2b824828b31d = L.marker(
+                [46.101030800000004, -37.07503515],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_00eb596e27e3afe9dba0bf42b713ed66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_26a3fef415cbec52c6d5e55f16c67714 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0a91e06bf82cbc20980081256ef6e3d = $(`<div id="html_b0a91e06bf82cbc20980081256ef6e3d" style="width: 100.0%; height: 100.0%;">Midpoint of London to New York</div>`)[0];
+                popup_26a3fef415cbec52c6d5e55f16c67714.setContent(html_b0a91e06bf82cbc20980081256ef6e3d);
+            
+        
+
+        marker_b5f21bb0817755cb636f2b824828b31d.bindPopup(popup_26a3fef415cbec52c6d5e55f16c67714)
+        ;
+
+        
+    
+    
+                marker_b5f21bb0817755cb636f2b824828b31d.setIcon(icon_00eb596e27e3afe9dba0bf42b713ed66);
+            
+    
+            var circle_marker_4c6aa4ca2dbec77c0c524bcaad789b56 = L.circleMarker(
+                [-27.4689682, 153.0234991],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_841a8e470c49ec68a1c96452f294d75f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f10ec8f4fc6b541a50b17ba4aff54f30 = $(`<div id="html_f10ec8f4fc6b541a50b17ba4aff54f30" style="width: 100.0%; height: 100.0%;">Brisbane</div>`)[0];
+                popup_841a8e470c49ec68a1c96452f294d75f.setContent(html_f10ec8f4fc6b541a50b17ba4aff54f30);
+            
+        
+
+        circle_marker_4c6aa4ca2dbec77c0c524bcaad789b56.bindPopup(popup_841a8e470c49ec68a1c96452f294d75f)
+        ;
+
+        
+    
+    
+            var circle_marker_62cc79f5452f7bd3a53baf8efee40ae0 = L.circleMarker(
+                [-33.8698439, 151.2082848],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_fe87d226810b721b84bf5a5711d0bb24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d337f971b559098cd6a70744df4af108 = $(`<div id="html_d337f971b559098cd6a70744df4af108" style="width: 100.0%; height: 100.0%;">Sydney</div>`)[0];
+                popup_fe87d226810b721b84bf5a5711d0bb24.setContent(html_d337f971b559098cd6a70744df4af108);
+            
+        
+
+        circle_marker_62cc79f5452f7bd3a53baf8efee40ae0.bindPopup(popup_fe87d226810b721b84bf5a5711d0bb24)
+        ;
+
+        
+    
+    
+            var poly_line_7ead3fbe4d773e3a94a8e2e1d2988d88 = L.polyline(
+                [[-27.4689682, 153.0234991], [-33.8698439, 151.2082848]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_434996eb13680abcc5833f6a1a263626 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_201c38e01ab442aeccbbd9da76df6f84 = $(`<div id="html_201c38e01ab442aeccbbd9da76df6f84" style="width: 100.0%; height: 100.0%;">Route: Brisbane to Sydney<br>Passengers: 4,820,704</div>`)[0];
+                popup_434996eb13680abcc5833f6a1a263626.setContent(html_201c38e01ab442aeccbbd9da76df6f84);
+            
+        
+
+        poly_line_7ead3fbe4d773e3a94a8e2e1d2988d88.bindPopup(popup_434996eb13680abcc5833f6a1a263626)
+        ;
+
+        
+    
+    
+            var marker_3d683d9a9ca6d9c7a8ea7bc2409d9a93 = L.marker(
+                [-30.66940605, 152.11589195],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_8eb9735542aa2bca6e5e9661758fa6ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5c94fea074ffba7d5947b1be7ed2899 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4058648003a6bfd533131736aa3eb2de = $(`<div id="html_4058648003a6bfd533131736aa3eb2de" style="width: 100.0%; height: 100.0%;">Midpoint of Brisbane to Sydney</div>`)[0];
+                popup_f5c94fea074ffba7d5947b1be7ed2899.setContent(html_4058648003a6bfd533131736aa3eb2de);
+            
+        
+
+        marker_3d683d9a9ca6d9c7a8ea7bc2409d9a93.bindPopup(popup_f5c94fea074ffba7d5947b1be7ed2899)
+        ;
+
+        
+    
+    
+                marker_3d683d9a9ca6d9c7a8ea7bc2409d9a93.setIcon(icon_8eb9735542aa2bca6e5e9661758fa6ab);
+            
+    
+            var circle_marker_bdf243d2f7d6267fe884f6792369c368 = L.circleMarker(
+                [41.8755616, -87.6244212],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_fa0b05ff10b9064b908bb57effcc5950 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7152cc049ca5a753622b5ff7974f59bd = $(`<div id="html_7152cc049ca5a753622b5ff7974f59bd" style="width: 100.0%; height: 100.0%;">Chicago,</div>`)[0];
+                popup_fa0b05ff10b9064b908bb57effcc5950.setContent(html_7152cc049ca5a753622b5ff7974f59bd);
+            
+        
+
+        circle_marker_bdf243d2f7d6267fe884f6792369c368.bindPopup(popup_fa0b05ff10b9064b908bb57effcc5950)
+        ;
+
+        
+    
+    
+            var circle_marker_5bdc1e898bf8642583208ec41a28bfde = L.circleMarker(
+                [40.7127281, -74.0060152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_59632c074e92328cbbd7da2b359fb513 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31a7664d9f339a9a098f0f47ec3ef1d2 = $(`<div id="html_31a7664d9f339a9a098f0f47ec3ef1d2" style="width: 100.0%; height: 100.0%;">New York,</div>`)[0];
+                popup_59632c074e92328cbbd7da2b359fb513.setContent(html_31a7664d9f339a9a098f0f47ec3ef1d2);
+            
+        
+
+        circle_marker_5bdc1e898bf8642583208ec41a28bfde.bindPopup(popup_59632c074e92328cbbd7da2b359fb513)
+        ;
+
+        
+    
+    
+            var poly_line_00bba343c033e0e20477b6b20b54b26c = L.polyline(
+                [[41.8755616, -87.6244212], [40.7127281, -74.0060152]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_370b6a1e633cb994c7b0e7017eb76b2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_493aaef45ae4603a51a989fd151f0341 = $(`<div id="html_493aaef45ae4603a51a989fd151f0341" style="width: 100.0%; height: 100.0%;">Route: Chicago, to New York,<br>Passengers: 4,020,000</div>`)[0];
+                popup_370b6a1e633cb994c7b0e7017eb76b2c.setContent(html_493aaef45ae4603a51a989fd151f0341);
+            
+        
+
+        poly_line_00bba343c033e0e20477b6b20b54b26c.bindPopup(popup_370b6a1e633cb994c7b0e7017eb76b2c)
+        ;
+
+        
+    
+    
+            var marker_e639dc0db1b7ea6e139a77b041c53c89 = L.marker(
+                [41.294144849999995, -80.8152182],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_cbb51bae4430f5fc0ea4d1e4dacceeb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fb1b58bde1f6c03ca1bd30d1a4f3639 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ec042fc75a06ac1751215a5da7ee1aa = $(`<div id="html_8ec042fc75a06ac1751215a5da7ee1aa" style="width: 100.0%; height: 100.0%;">Midpoint of Chicago, to New York,</div>`)[0];
+                popup_8fb1b58bde1f6c03ca1bd30d1a4f3639.setContent(html_8ec042fc75a06ac1751215a5da7ee1aa);
+            
+        
+
+        marker_e639dc0db1b7ea6e139a77b041c53c89.bindPopup(popup_8fb1b58bde1f6c03ca1bd30d1a4f3639)
+        ;
+
+        
+    
+    
+                marker_e639dc0db1b7ea6e139a77b041c53c89.setIcon(icon_cbb51bae4430f5fc0ea4d1e4dacceeb5);
+            
+    
+            var circle_marker_a0c14a813b017a06d2c755802e252a47 = L.circleMarker(
+                [34.0536909, -118.242766],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_d9c54d123ac807f363c76cfee2b70c08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fb19bc6bfe392e63aa4805346f0df32 = $(`<div id="html_4fb19bc6bfe392e63aa4805346f0df32" style="width: 100.0%; height: 100.0%;">Los Angeles,</div>`)[0];
+                popup_d9c54d123ac807f363c76cfee2b70c08.setContent(html_4fb19bc6bfe392e63aa4805346f0df32);
+            
+        
+
+        circle_marker_a0c14a813b017a06d2c755802e252a47.bindPopup(popup_d9c54d123ac807f363c76cfee2b70c08)
+        ;
+
+        
+    
+    
+            var circle_marker_754d3e159faf9cb5eed362b10b45c2fb = L.circleMarker(
+                [37.7792588, -122.4193286],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_3a31446e9c31f9408f88685399707934 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc2921a1a7b3595db777e37c2e7c6b6c = $(`<div id="html_bc2921a1a7b3595db777e37c2e7c6b6c" style="width: 100.0%; height: 100.0%;">San Francisco,</div>`)[0];
+                popup_3a31446e9c31f9408f88685399707934.setContent(html_bc2921a1a7b3595db777e37c2e7c6b6c);
+            
+        
+
+        circle_marker_754d3e159faf9cb5eed362b10b45c2fb.bindPopup(popup_3a31446e9c31f9408f88685399707934)
+        ;
+
+        
+    
+    
+            var poly_line_e4a9aec8a8eb9d1087d03fc90aa688cc = L.polyline(
+                [[34.0536909, -118.242766], [37.7792588, -122.4193286]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_8d032493e39a6fb6ad47fe16b513728f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ce672f160e6d62d9c628adf2b1bf38c = $(`<div id="html_7ce672f160e6d62d9c628adf2b1bf38c" style="width: 100.0%; height: 100.0%;">Route: Los Angeles, to San Francisco,<br>Passengers: 3,660,000</div>`)[0];
+                popup_8d032493e39a6fb6ad47fe16b513728f.setContent(html_7ce672f160e6d62d9c628adf2b1bf38c);
+            
+        
+
+        poly_line_e4a9aec8a8eb9d1087d03fc90aa688cc.bindPopup(popup_8d032493e39a6fb6ad47fe16b513728f)
+        ;
+
+        
+    
+    
+            var marker_0d7b019662f8af116d6783c64d85da94 = L.marker(
+                [35.91647485, -120.3310473],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_17472de19f402abdc26d863f52344fa0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_211baaf35827188817b9e8a0fd4c7123 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6c0fecb9f2865854b08f480a4936c3e = $(`<div id="html_a6c0fecb9f2865854b08f480a4936c3e" style="width: 100.0%; height: 100.0%;">Midpoint of Los Angeles, to San Francisco,</div>`)[0];
+                popup_211baaf35827188817b9e8a0fd4c7123.setContent(html_a6c0fecb9f2865854b08f480a4936c3e);
+            
+        
+
+        marker_0d7b019662f8af116d6783c64d85da94.bindPopup(popup_211baaf35827188817b9e8a0fd4c7123)
+        ;
+
+        
+    
+    
+                marker_0d7b019662f8af116d6783c64d85da94.setIcon(icon_17472de19f402abdc26d863f52344fa0);
+            
+    
+            var circle_marker_3ec920c81821aa3c84320789d1271c59 = L.circleMarker(
+                [51.4893335, -0.1440551],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_789b6bc67db3cc4d3058204063815d87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c25c8c0075bb447e170ed4b0e5ccc06 = $(`<div id="html_1c25c8c0075bb447e170ed4b0e5ccc06" style="width: 100.0%; height: 100.0%;">London</div>`)[0];
+                popup_789b6bc67db3cc4d3058204063815d87.setContent(html_1c25c8c0075bb447e170ed4b0e5ccc06);
+            
+        
+
+        circle_marker_3ec920c81821aa3c84320789d1271c59.bindPopup(popup_789b6bc67db3cc4d3058204063815d87)
+        ;
+
+        
+    
+    
+            var circle_marker_ae2b4514472ca7ee56ea927bab4af29c = L.circleMarker(
+                [25.0742823, 55.1885387],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_147015917ced6842aebc964eb8faf4c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d27b8581dc275383f0b82f9fe5fa335 = $(`<div id="html_0d27b8581dc275383f0b82f9fe5fa335" style="width: 100.0%; height: 100.0%;">Dubai</div>`)[0];
+                popup_147015917ced6842aebc964eb8faf4c4.setContent(html_0d27b8581dc275383f0b82f9fe5fa335);
+            
+        
+
+        circle_marker_ae2b4514472ca7ee56ea927bab4af29c.bindPopup(popup_147015917ced6842aebc964eb8faf4c4)
+        ;
+
+        
+    
+    
+            var poly_line_c1540905d142df935d29172e36caea62 = L.polyline(
+                [[51.4893335, -0.1440551], [25.0742823, 55.1885387]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_385dd1f28a7db54e9b4126a7d4107f0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d837ac0e7d2caf2f82dab676951c9ce = $(`<div id="html_2d837ac0e7d2caf2f82dab676951c9ce" style="width: 100.0%; height: 100.0%;">Route: London to Dubai<br>Passengers: 3,630,407</div>`)[0];
+                popup_385dd1f28a7db54e9b4126a7d4107f0d.setContent(html_2d837ac0e7d2caf2f82dab676951c9ce);
+            
+        
+
+        poly_line_c1540905d142df935d29172e36caea62.bindPopup(popup_385dd1f28a7db54e9b4126a7d4107f0d)
+        ;
+
+        
+    
+    
+            var marker_988f6b8c8782191cd3b573ca02309b90 = L.marker(
+                [38.281807900000004, 27.5222418],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_c29f0243da9c66d10111ae26ce2b72c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5af55187e108d0286db54578d003c23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b5c1000ab84c09e49b67c9288d78389 = $(`<div id="html_3b5c1000ab84c09e49b67c9288d78389" style="width: 100.0%; height: 100.0%;">Midpoint of London to Dubai</div>`)[0];
+                popup_d5af55187e108d0286db54578d003c23.setContent(html_3b5c1000ab84c09e49b67c9288d78389);
+            
+        
+
+        marker_988f6b8c8782191cd3b573ca02309b90.bindPopup(popup_d5af55187e108d0286db54578d003c23)
+        ;
+
+        
+    
+    
+                marker_988f6b8c8782191cd3b573ca02309b90.setIcon(icon_c29f0243da9c66d10111ae26ce2b72c5);
+            
+    
+            var circle_marker_42a50210f114d0bb3d93361fa12a5ec3 = L.circleMarker(
+                [-27.4689682, 153.0234991],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_b21c755205e0caf47179686fe97116bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b27cb3b0dc67b393f233e893e6f0a8a4 = $(`<div id="html_b27cb3b0dc67b393f233e893e6f0a8a4" style="width: 100.0%; height: 100.0%;">Brisbane</div>`)[0];
+                popup_b21c755205e0caf47179686fe97116bf.setContent(html_b27cb3b0dc67b393f233e893e6f0a8a4);
+            
+        
+
+        circle_marker_42a50210f114d0bb3d93361fa12a5ec3.bindPopup(popup_b21c755205e0caf47179686fe97116bf)
+        ;
+
+        
+    
+    
+            var circle_marker_097fac97f11dd02bfe9b37f7b639dd7d = L.circleMarker(
+                [-37.8142454, 144.9631732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_f6243d01ee3de76c787016b5a73f02ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c538695fcf1bcf9520880d3e9590727 = $(`<div id="html_6c538695fcf1bcf9520880d3e9590727" style="width: 100.0%; height: 100.0%;">Melbourne</div>`)[0];
+                popup_f6243d01ee3de76c787016b5a73f02ec.setContent(html_6c538695fcf1bcf9520880d3e9590727);
+            
+        
+
+        circle_marker_097fac97f11dd02bfe9b37f7b639dd7d.bindPopup(popup_f6243d01ee3de76c787016b5a73f02ec)
+        ;
+
+        
+    
+    
+            var poly_line_8150ebb700d7ab1272ae34b19a64e775 = L.polyline(
+                [[-27.4689682, 153.0234991], [-37.8142454, 144.9631732]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+        var popup_3186849b71a830128cf3689e42092670 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c65e5dd5ffe8659777b10e16a4db689 = $(`<div id="html_6c65e5dd5ffe8659777b10e16a4db689" style="width: 100.0%; height: 100.0%;">Route: Brisbane to Melbourne<br>Passengers: 3,608,479</div>`)[0];
+                popup_3186849b71a830128cf3689e42092670.setContent(html_6c65e5dd5ffe8659777b10e16a4db689);
+            
+        
+
+        poly_line_8150ebb700d7ab1272ae34b19a64e775.bindPopup(popup_3186849b71a830128cf3689e42092670)
+        ;
+
+        
+    
+    
+            var marker_5efe5e3a92a9640bc3b37ecc1179b396 = L.marker(
+                [-32.6416068, 148.99333615],
+                {
+}
+            ).addTo(map_3cc6a78ac2dee814965240d2872996f2);
+        
+    
+            var icon_9845b3c5d32cf6f882d310fd29499659 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4964ba5a3779c88e34effbcd83d8eb2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33ef7bce9437e9ccafbf39e962c79bd1 = $(`<div id="html_33ef7bce9437e9ccafbf39e962c79bd1" style="width: 100.0%; height: 100.0%;">Midpoint of Brisbane to Melbourne</div>`)[0];
+                popup_4964ba5a3779c88e34effbcd83d8eb2e.setContent(html_33ef7bce9437e9ccafbf39e962c79bd1);
+            
+        
+
+        marker_5efe5e3a92a9640bc3b37ecc1179b396.bindPopup(popup_4964ba5a3779c88e34effbcd83d8eb2e)
+        ;
+
+        
+    
+    
+                marker_5efe5e3a92a9640bc3b37ecc1179b396.setIcon(icon_9845b3c5d32cf6f882d310fd29499659);
+            
+</script>
+</html>

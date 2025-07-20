@@ -1,0 +1,101 @@
+From,To,Type,Year,Passengers,From_Country,To_Country,From_Lat,From_Lon,To_Lat,To_Lon
+London,Dublin,International,2011,5106040,United Kingdom,Ireland,51.4893335,-0.1440551,53.3493795,-6.2605593
+Moscow,Saint Petersburg,Domestic,2011,5051518,Russia,Russia,55.625578,37.6063916,59.9606739,30.1586551
+London,Amsterdam,International,2011,4920551,United Kingdom,Netherlands,51.4893335,-0.1440551,52.3730796,4.8924534
+London,New York,International,2011,4869777,United Kingdom,United States,51.4893335,-0.1440551,40.7127281,-74.0060152
+London,Dubai,International,2011,3630407,United Kingdom,United Arab Emirates,51.4893335,-0.1440551,25.0742823,55.1885387
+London,Barcelona,International,2011,3490189,United Kingdom,Spain,51.4893335,-0.1440551,41.3825802,2.177073
+London,Edinburgh,Domestic,2011,3373092,United Kingdom,United Kingdom,51.4893335,-0.1440551,55.9533456,-3.1883749
+Paris,Toulouse,Domestic,2011,3218040,France,France,48.8588897,2.320041,43.6044622,1.4442469
+Paris,Nice,Domestic,2011,3184661,France,France,48.8588897,2.320041,43.7009358,7.2683912
+London,Madrid,International,2011,3142916,United Kingdom,Spain,51.4893335,-0.1440551,40.4167047,-3.7035825
+Rio de Janeiro-Santos Dumont,São Paulo-Congonhas,Domestic,2022,2978669,Brazil,Brazil,-22.9122964,-43.1676687,-23.626918,-46.661897
+Porto Alegre,São Paulo-Congonhas,Domestic,2022,1630763,Brazil,Brazil,-30.0324999,-51.2303767,-23.626918,-46.661897
+Brasília,São Paulo-Congonhas,Domestic,2022,1565820,Brazil,Brazil,-10.3333333,-53.2,-23.626918,-46.661897
+Recife,São Paulo-Guarulhos,Domestic,2022,1545757,Brazil,Brazil,-8.0584933,-34.8848193,-23.4675941,-46.5277704
+Porto Alegre,São Paulo-Guarulhos,Domestic,2022,1524626,Brazil,Brazil,-30.0324999,-51.2303767,-23.4675941,-46.5277704
+Belo Horizonte,São Paulo-Congonhas,Domestic,2022,1494260,Brazil,Brazil,-19.9227318,-43.9450948,-23.626918,-46.661897
+Salvador,São Paulo-Congonhas,Domestic,2022,1290367,Brazil,Brazil,13.8000382,-88.9140683,-23.626918,-46.661897
+Belo Horizonte,São Paulo-Guarulhos,Domestic,2022,1234256,Brazil,Brazil,-19.9227318,-43.9450948,-23.4675941,-46.5277704
+Recife,São Paulo-Congonhas,Domestic,2022,1169156,Brazil,Brazil,-8.0584933,-34.8848193,-23.626918,-46.661897
+Brasília,Rio de Janeiro-Santos Dumont,Domestic,2022,1142563,Brazil,Brazil,-10.3333333,-53.2,-22.9122964,-43.1676687
+Buenos Aires,Santiago de Chile,International,2017,2027000,Argentina,Chile,-34.6083696,-58.4440583,-33.4377756,-70.6504502
+Buenos Aires,São Paulo,International,2017,1903000,Argentina,Brazil,-34.6083696,-58.4440583,-23.5506507,-46.6333824
+Buenos Aires,Miami,International,2017,1001000,Argentina,United States,-34.6083696,-58.4440583,25.7741728,-80.19362
+Buenos Aires,Rio de Janeiro,International,2017,938000,Argentina,Brazil,-34.6083696,-58.4440583,-22.9110137,-43.2093727
+Buenos Aires,Lima,International,2017,896000,Argentina,Peru,-34.6083696,-58.4440583,-12.0621065,-77.0365256
+Buenos Aires,Madrid,International,2017,815000,Argentina,Spain,-34.6083696,-58.4440583,40.4167047,-3.7035825
+Mendoza,Santiago de Chile,International,2017,425000,Argentina,Chile,-34.787093,-68.4381868,-33.4377756,-70.6504502
+Buenos Aires,Bogotá,International,2017,372000,Argentina,Colombia,-34.6083696,-58.4440583,4.7110053,-74.0720857
+Buenos Aires,Rome,International,2017,332000,Argentina,Italy,-34.6083696,-58.4440583,41.8933203,12.4829321
+Buenos Aires,New York,International,2017,329000,Argentina,United States,-34.6083696,-58.4440583,40.7127281,-74.0060152
+Buenos Aires,Córdoba,Domestic,2017,1368000,Argentina,Argentina,-34.6083696,-58.4440583,37.8845813,-4.7760138
+Buenos Aires - Aeroparque,Bariloche,Domestic,2017,1005000,Argentina,Argentina,-34.5594554,-58.4143637,-41.1334781,-71.3101474
+Buenos Aires - Aeroparque,Mendoza,Domestic,2017,880000,Argentina,Argentina,-34.5594554,-58.4143637,-34.787093,-68.4381868
+Buenos Aires - Aeroparque,Iguazú,Domestic,2017,841000,Argentina,Argentina,-34.5594554,-58.4143637,-27.6034457,-55.3175431
+Buenos Aires - Aeroparque,Salta,Domestic,2017,828000,Argentina,Argentina,-34.5594554,-58.4143637,-25.1076701,-64.3494964
+Buenos Aires - Aeroparque,Neuquén,Domestic,2017,722000,Argentina,Argentina,-34.5594554,-58.4143637,-38.3695057,-69.832275
+Buenos Aires - Aeroparque,Tucumán,Domestic,2017,501000,Argentina,Argentina,-34.5594554,-58.4143637,-26.5643582,-64.882397
+Buenos Aires - Aeroparque,Ushuaia,Domestic,2017,490000,Argentina,Argentina,-34.5594554,-58.4143637,-54.807306,-68.3084133
+Buenos Aires - Aeroparque,Comodoro Rivadavia,Domestic,2017,462000,Argentina,Argentina,-34.5594554,-58.4143637,-45.8632024,-67.4752615
+Buenos Aires - Aeroparque,El Calafate,Domestic,2017,383000,Argentina,Argentina,-34.5594554,-58.4143637,-50.3387375,-72.2737216
+Melbourne,Sydney,Domestic,2019,9181932,Australia,Australia,-37.8142454,144.9631732,-33.8698439,151.2082848
+Brisbane,Sydney,Domestic,2019,4820704,Australia,Australia,-27.4689682,153.0234991,-33.8698439,151.2082848
+Brisbane,Melbourne,Domestic,2019,3608479,Australia,Australia,-27.4689682,153.0234991,-37.8142454,144.9631732
+Gold Coast,Sydney,Domestic,2019,2733449,Australia,Australia,-28.0023731,153.4145987,-33.8698439,151.2082848
+Adelaide,Melbourne,Domestic,2019,2538061,Australia,Australia,-34.9281805,138.5999312,-37.8142454,144.9631732
+Gold Coast,Melbourne,Domestic,2019,2122157,Australia,Australia,-28.0023731,153.4145987,-37.8142454,144.9631732
+Melbourne,Perth,Domestic,2019,2110125,Australia,Australia,-37.8142454,144.9631732,-31.9558933,115.8605855
+Adelaide,Sydney,Domestic,2019,1878741,Australia,Australia,-34.9281805,138.5999312,-33.8698439,151.2082848
+Perth,Sydney,Domestic,2019,1692031,Australia,Australia,-31.9558933,115.8605855,-33.8698439,151.2082848
+Melbourne,Hobart,Domestic,2019,1670181,Australia,Australia,-37.8142454,144.9631732,-42.8825088,147.3281233
+Melbourne,Singapore,International,2019,1629492,Australia,Singapore,-37.8142454,144.9631732,1.357107,103.8194992
+Sydney,Auckland,International,2019,1602232,Australia,New Zealand,-33.8698439,151.2082848,-36.852095,174.7631803
+Sydney,Singapore,International,2019,1537148,Australia,Singapore,-33.8698439,151.2082848,1.357107,103.8194992
+Melbourne,Auckland,International,2019,1251457,Australia,New Zealand,-37.8142454,144.9631732,-36.852095,174.7631803
+Sydney,Hong Kong,International,2019,1195224,Australia,China (Hong Kong),-33.8698439,151.2082848,22.350627,114.1849161
+Perth,Singapore,International,2019,1131233,Australia,Singapore,-31.9558933,115.8605855,1.357107,103.8194992
+Brisbane,Singapore,International,2019,964447,Australia,Singapore,-27.4689682,153.0234991,1.357107,103.8194992
+Brisbane,Auckland,International,2019,955385,Australia,New Zealand,-27.4689682,153.0234991,-36.852095,174.7631803
+Sydney,Los Angeles,International,2019,908540,Australia,United States,-33.8698439,151.2082848,34.0536909,-118.242766
+Perth,Denpasar,International,2019,893420,Australia,Indonesia,-31.9558933,115.8605855,-8.6524973,115.2191175
+Bogotá,Medellín,Domestic,2017,3013297,Colombia,Colombia,4.7110053,-74.0720857,6.2697324,-75.6025597
+Bogotá,Cartagena,Domestic,2017,2433483,Colombia,Colombia,4.7110053,-74.0720857,10.4265566,-75.5441671
+Bogotá,Cali,Domestic,2017,2083833,Colombia,Colombia,4.7110053,-74.0720857,3.4519988,-76.5325259
+Bogotá,Barranquilla,Domestic,2017,1435766,Colombia,Colombia,4.7110053,-74.0720857,11.0101922,-74.8231794
+Bogotá,Santa Marta,Domestic,2017,1151101,Colombia,Colombia,4.7110053,-74.0720857,11.2320944,-74.1950916
+Bogotá,"Archipelago of San Andrés, Providencia and Santa Catalina",International,2017,951880,Colombia,,4.7110053,-74.0720857,13.3879966,-81.3757859
+Bogotá,Bucaramanga,Domestic,2017,942793,Colombia,Colombia,4.7110053,-74.0720857,7.1669842,-73.1047294
+Bogotá,Pereira,Domestic,2017,849118,Colombia,Colombia,4.7110053,-74.0720857,4.7854606,-75.788322
+Cartagena,Medellín,Domestic,2017,738699,Colombia,Colombia,10.4265566,-75.5441671,6.2697324,-75.6025597
+Bogotá,Montería,Domestic,2017,568500,Colombia,Colombia,4.7110053,-74.0720857,8.6046053,-75.9783203
+Bogotá,Panama City,International,2017,698916,Colombia,Panama,4.7110053,-74.0720857,30.1586518,-85.6602936
+Bogotá,Mexico City,International,2017,533444,Colombia,Mexico,4.7110053,-74.0720857,19.3207722,-99.1514678
+Bogotá,Lima,International,2017,470514,Colombia,Peru,4.7110053,-74.0720857,-12.0621065,-77.0365256
+Bogotá,Miami,International,2017,469899,Colombia,United States,4.7110053,-74.0720857,25.7741728,-80.19362
+Bogotá,Madrid,International,2017,447470,Colombia,Spain,4.7110053,-74.0720857,40.4167047,-3.7035825
+Bogotá,Quito,International,2017,391586,Colombia,Ecuador,4.7110053,-74.0720857,-0.2201641,-78.5123274
+Bogotá,Santiago de Chile,International,2017,366904,Colombia,Chile,4.7110053,-74.0720857,-33.4377756,-70.6504502
+Medellín,Panama City,International,2017,366630,Colombia,Panama,6.2697324,-75.6025597,30.1586518,-85.6602936
+Bogotá,Buenos Aires,International,2017,333481,Colombia,Argentina,4.7110053,-74.0720857,-34.6083696,-58.4440583
+Bogotá,Cancún,International,2017,306905,Colombia,Mexico,4.7110053,-74.0720857,21.1527467,-86.8425761
+Istanbul/Sabiha Gökçen,Izmir,Domestic,2019,2751298,Turkey,Turkey,40.894334,29.3118058,38.23166,27.02997
+Istanbul/Sabiha Gökçen,Antalya,Domestic,2019,2616991,Turkey,Turkey,40.894334,29.3118058,36.8865728,30.7030242
+Antalya,Moscow/Vnukovo,International,2019,2329578,Turkey,Russia,36.8865728,30.7030242,55.611698,37.300255
+Istanbul/Sabiha Gökçen,Ankara,Domestic,2019,2184197,Turkey,Turkey,40.894334,29.3118058,39.9207759,32.8540497
+Istanbul/Havalimani,Izmir,Domestic,2019,1849317,Turkey,Turkey,41.2748683,28.7322749,38.23166,27.02997
+Istanbul/Sabiha Gökçen,Trabzon,Domestic,2019,1579391,Turkey,Turkey,40.894334,29.3118058,41.0054605,39.7301463
+Istanbul/Havalimani,Antalya,Domestic,2019,1524256,Turkey,Turkey,41.2748683,28.7322749,36.8865728,30.7030242
+Istanbul/Havalimani,Tehran,International,2019,1460900,Turkey,Iran,41.2748683,28.7322749,35.6892523,51.3896004
+Istanbul/Sabiha Gökçen,Adana,Domestic,2019,1448183,Turkey,Turkey,40.894334,29.3118058,36.9863599,35.3252861
+Istanbul/Havalimani,Ankara,Domestic,2019,1411924,Turkey,Turkey,41.2748683,28.7322749,39.9207759,32.8540497
+"Chicago,","New York,",Domestic,2014,4020000,United States,United States,41.8755616,-87.6244212,40.7127281,-74.0060152
+"Los Angeles,","San Francisco,",Domestic,2014,3660000,United States,United States,34.0536909,-118.242766,37.7792588,-122.4193286
+"Los Angeles,","New York,",Domestic,2014,3420000,United States,United States,34.0536909,-118.242766,40.7127281,-74.0060152
+"Chicago,","Los Angeles,",Domestic,2014,3010000,United States,United States,41.8755616,-87.6244212,34.0536909,-118.242766
+"Miami,","New York,",Domestic,2014,2750000,United States,United States,25.7741728,-80.19362,40.7127281,-74.0060152
+"Atlanta,","Chicago,",Domestic,2014,2720000,United States,United States,33.7489924,-84.3902644,41.8755616,-87.6244212
+"Chicago,","Minneapolis,",Domestic,2014,2720000,United States,United States,41.8755616,-87.6244212,44.9772995,-93.2654692
+"Atlanta,","New York,",Domestic,2014,2600000,United States,United States,33.7489924,-84.3902644,40.7127281,-74.0060152
+"Atlanta,","Orlando,",Domestic,2014,2620000,United States,United States,33.7489924,-84.3902644,28.5421109,-81.3790304
+"Chicago,","Washington,",Domestic,2014,2620000,United States,United States,41.8755616,-87.6244212,38.8950368,-77.0365427
